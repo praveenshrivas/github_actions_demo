@@ -6,5 +6,11 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: First Ever step
-        run: echo "🎉 Hello from GitHub Actions!"
+      - name: First step!
+        run: echo "🎉 This is the first step!"
+      - name: Second step!!
+        run: echo "🎉🎉 This is the second step!!"
+      - name: Third step!!!
+        run: echo "🎉🎉🎉 This is the third step!!!"
+      - name: Final step!!!!
+        run: echo "🎉🎉🎉🎉 This is the fourth step!!!!"
